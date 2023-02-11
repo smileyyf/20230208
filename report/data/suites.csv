@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Feb 11 14:41:28 GMT+08:00 2023","Sat Feb 11 14:41:34 GMT+08:00 2023","5885","TestCase","test_search","TestChaXun","","","test_suitcase_001",""

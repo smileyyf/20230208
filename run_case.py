@@ -8,4 +8,5 @@ from config.conf import cm
 from common.times import sleep
 
 
-pytest.main(['--clean-alluredir', '-v', './TestCase/', '--alluredir', './allure-results'])
+pytest.main([ '-v', './TestCase/', '--alluredir', './allure-results'])
+os.system("allure generate ./allure-results -o  ./report --clean")
