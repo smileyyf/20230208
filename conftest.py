@@ -14,7 +14,7 @@ from page_object.chaxunshuju import Search
 # from page_object.loginpage import LoginPage
 WIN = sys.platform.startswith('win')
 # driver = webdriver.Chrome(cm.CHROME_PATH)
-driver = webdriver.Chrome('D:\\allproject\\20230208\\driver\\chromedriver.exe')
+driver = webdriver.Chrome('C:\\Users\\叶玉飞\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver.exe')
 
 @pytest.fixture(scope='session', autouse=True)
 def drivers(request):
