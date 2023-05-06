@@ -114,7 +114,7 @@ def pytest_terminal_summary(terminalreporter, exitstatus, config):
     #     data = {"msgtype": "text",
     #             "text":
     #                 {
-    #                     "content": "--代账UI自动化测试本次执行结果--"
+    #                     "content": "--UI自动化测试本次执行结果--"
     #                                "\n测试环境：{}".format(env) +
     #                                "\n执行测试用例数：{}".format(execute) +
     #                                "\n通过率：{}".format(sucess) +
