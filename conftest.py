@@ -122,7 +122,7 @@ def pytest_terminal_summary(terminalreporter, exitstatus, config):
     #                                "\n失败用例数：{}".format(failed) +
     #                                "\n时间：{}".format(starttime) +
     #                                "\n耗时：{}s".format(timeout) +
-    #                                "\n报告地址：http://10.83.1.43:8989/job/yzf_dz_ui_auto_pre/allure/#behaviors"
+    #                                "\n报告地址：http://10.83.1.12:8989/allure/#behaviors"
     #                 }
     #             }
     #     # DingTalkSend(data)
